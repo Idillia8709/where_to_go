@@ -1,0 +1,7 @@
+@import url('../footer/__paragraph/footer__paragraph.css');
+.footer {
+    width: 100%;
+    background: #FECDA7;
+    position: relative;
+    height: 720px;
+}

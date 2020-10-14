@@ -1,0 +1,6 @@
+@import url('../video/__paragraph/video__paragraph.css');
+@import url('../video/__iframe/video__iframe.css');
+.video {
+    width: 100%;
+    position: relative;
+}

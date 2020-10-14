@@ -2,6 +2,7 @@
 @import url('../lead/__title/lead__title.css');
 @import url('../lead/__paragraph/lead__paragraph.css');
 @import url('../lead/__image/lead__image.css');
+@import url('../lead/_theme/lead_theme_dark.css');
 .lead {
     width: calc(100% - 2 * 24px);
     display: flex;
