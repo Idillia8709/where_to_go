@@ -8,3 +8,19 @@
     left: 24px;
 
 }
+@media screen and (max-width: 1279px) {
+    .video__paragraph {
+        font-size: 30px; 
+    }
+}
+@media screen and (max-width: 1023px) {
+    .video__paragraph {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .video__paragraph {
+        font-size: 15px;
+        top: 15%;
+    }
+}

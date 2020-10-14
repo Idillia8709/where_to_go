@@ -2,6 +2,24 @@
 .footer {
     width: 100%;
     background: #FECDA7;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 720px;
+}
+@media screen and (max-width: 1279px) {
+    .footer {
+        height: 620px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .footer {
+        height: 520px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .footer {
+        height: 380px;
+    }
 }
