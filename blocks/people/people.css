@@ -1,0 +1,8 @@
+@import url('../people/__parargaph/people__paragraph.css');
+@import url('../people/__title/people__title.css');
+@import url('../people/__items/people__items.css');
+@import url('../people/__autor/people__autor.css');
+@import url('../people/__text/people__text.css');
+.people {
+    width: calc(100% - 2 * 24px);
+}
