@@ -1,24 +1,88 @@
 @font-face {
-    font-family: '';
-    font-style: normal;
-    font-weight: ;
-    font-display: swap;
-    src: url("") format("woff2"),
-         url("") format("woff");
-  }
-  @font-face {
-    font-family:  '';
-    font-style: normal;
-    font-weight: ;
-    font-display: swap;
-    src: url("") format("woff2"),
-         url("") format("woff");
-  }
-  @font-face {
-    font-family:  '';
-    font-style: normal;
-    font-weight: ;
-    font-display: swap;
-    src: url("") format("woff2"),
-         url("") format("woff");
-  }
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 100;
+     font-display: swap;
+     src: url("HelveticaThin.ttf") format("ttf"),
+          url("HelveticaThin.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 200;
+     font-display: swap;
+     src: url("HelveticaUltraLight.ttf") format("ttf"),
+          url("HelveticaUltraLight.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 300;
+     font-display: swap;
+     src: url("HelveticaLight.ttf") format("ttf"),
+          url("HelveticaLight.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url("HelveticaRegular.ttf") format("ttf"),
+          url("HelveticaRegular.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url("HelveticaMedium.ttf") format("ttf"),
+          url("HelveticaMedium.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 600;
+     font-display: swap;
+     src: url("HelveticaBold.ttf") format("ttf"),
+          url("HelveticaBold.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url("HelveticaBold.ttf") format("ttf"),
+          url("HelveticaBold.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 800;
+     font-display: swap;
+     src: url("HelveticaHeavy.ttf") format("ttf"),
+          url("HelveticaHeavy.woff") format("woff");
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     font-weight: 900;
+     font-display: swap;
+     src: url("HelveticaBlack.ttf") format("ttf"),
+          url("HelveticaBlack.woff") format("woff");	   
+   }
+   
+   @font-face {
+     font-family: 'Helvetica';
+     font-style:  normal;
+     /*font-weight: 900;*/
+     font-display: swap;
+     src: url("HelveticaInseratCyrUp.ttf") format("ttf");   
+   }
