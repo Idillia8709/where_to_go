@@ -1,0 +1,14 @@
+.order__form-container {
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 639px) {
+    .order__form-container {
+      width: 95%;
+      align-items: center;
+    }
+  }

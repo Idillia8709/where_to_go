@@ -1,0 +1,9 @@
+.order__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+  margin: 110px auto 100px 60px;
+  max-width: 310px;
+}
