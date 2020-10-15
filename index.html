@@ -5,11 +5,15 @@
   <link rel="stylesheet" href="./pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Проект совместной работы на каникулах...">
+  <meta name="keywords" content="адаптивный сайт, верстаем вместе, куда податься, где отдохнуть">
+  <meta name="author" content="WebDigiGroup">
   <title>Куда поехать в путешествие?</title>
 </head>
 
-<body class="page">
-  <div class="page__container">
+<body class="body">
+  <div class="page">
+
     <header class="header header_theme_dark">
       <nav class="menu">
         <ul class="menu__items">
@@ -26,7 +30,8 @@
         <a class="menu__link" href="#">Пожаловаться</a>
       </nav>
     </header>
-    <main>
+
+    <main class="content">
       <section class="lead lead_theme_dark">
         <div class="lead__text">
           <p class="lead__paragraph">куда я поеду</p>
@@ -34,6 +39,7 @@
         </div>
         <img src="./images/intro-image.jpeg" alt="Крыло самолета на фоне заката и облаков" class="lead__image">
       </section>
+
       <section class="places">
         <div class="place">
           <img class="place__image" src="./images/places-forest.jpeg" alt="Человек смотрит на водопад">
@@ -76,6 +82,7 @@
           </div>
         </div>
       </section>
+
       <section class="people people_theme_dark">
         <p class="people__paragraph">Люди</p>
         <h2 class="people__title">Что говорят и говорили люди о путешествиях</h2>
@@ -103,6 +110,7 @@
           </li>
         </ul>
       </section>
+
       <section class="order">
         <div class="order__form-container">
           <h2 class="order__title">Так куда же я поеду?</h2>
@@ -114,12 +122,7 @@
         </div>
         <img class="order__image" src="images/airport-schedule.jpg" alt="Табло с расписанием">
       </section>
-      <section>
-        <p>А пока что - сидим дома!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JGNiMutYBm4"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </section>
+    
       <section class="video">
         <p class="video__paragraph">А пока что - сидим дома!</p>
         <iframe class="video__iframe" src="https://www.youtube-nocookie.com/embed/JGNiMutYBm4?controls=0&amp;start=1"
@@ -128,8 +131,10 @@
           allowfullscreen></iframe>
         <section>
     </main>
+
     <footer class="footer">
       <p class="footer__paragraph">&copy; 2020</p>
     </footer>
+
   </div>
 </body>
