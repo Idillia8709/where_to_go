@@ -1,5 +1,4 @@
 @import url('../header/_theme/header_theme_dark.css');
 .header {
-    width: calc(100% - 2 * 24px);
-    
+    width: calc(100% - 2 * 24px);   
 }
