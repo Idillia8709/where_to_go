@@ -6,3 +6,14 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 80px;
 }
+@media screen and (max-width: 1023px) {
+    .people__items {
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .people__items {
+        grid-template-columns: 1fr;
+        gap: 40px; 
+    }
+}

@@ -4,8 +4,23 @@
 @import url('../lead/__image/lead__image.css');
 @import url('../lead/_theme/lead_theme_dark.css');
 .lead {
-    width: calc(100% - 2 * 24px);
+    width: calc(100% - 2 * 55px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width: 1279px) {
+    .lead {
+        width: calc(100% - 2 * 45px);
+    }
+}
+@media screen and (max-width: 1023px) {
+    .lead {
+        width: calc(100% - 2 * 35px);
+    }
+}
+@media screen and (max-width: 639px) {
+    .lead {
+        width: calc(100% - 2 * 25px);
+    }
 }

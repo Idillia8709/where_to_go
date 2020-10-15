@@ -4,3 +4,9 @@
     line-height: 1.5;
     margin: 0 0 150px 0;
 }
+@media screen and (max-width: 639px) {
+    .people__title {
+    width: 70%;
+    }
+
+}
