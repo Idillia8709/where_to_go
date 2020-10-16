@@ -8,6 +8,6 @@
 
   @media screen and (min-width: 320px) and (max-width: 639px) {
     .place__text-container {
-      width: 95%;
+      width: 100%;
     }
   }

@@ -80,9 +80,9 @@
    }
    
    @font-face {
-     font-family: 'Helvetica';
+     font-family: 'Helvetica Ins';
      font-style:  normal;
-     /*font-weight: 900;*/
+     font-weight: 600;
      font-display: swap;
      src: url("HelveticaInseratCyrUp.ttf") format("ttf");   
    }
