@@ -1,12 +1,19 @@
 .people__title {
-    width: 30%;
+    width: 350px;
     font-size: 28px;
     line-height: 1.5;
     margin: 0 0 150px 0;
 }
+@media screen and (max-width: 1023px) {
+  .people__title {
+  width: 340px;
+  }
+
+}
+
 @media screen and (max-width: 639px) {
     .people__title {
-    width: 70%;
+    width: 90%;
     }
 
 }
