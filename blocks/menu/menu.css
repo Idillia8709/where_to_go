@@ -1,9 +1,7 @@
 @import url('../menu/__items/menu__items.css');
 @import url('../menu/__item/menu__item.css');
 @import url('../menu/__link/menu__link.css');
+
 .menu {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
 }

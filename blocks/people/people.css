@@ -3,7 +3,7 @@
 @import url('../people/__items/people__items.css');
 @import url('../people/__autor/people__autor.css');
 @import url('../people/__text/people__text.css');
-@import url('../people/_theme/people_theme_dark.css');
+@import url('../people/_alignment/people_alignment_indent.css');
 .people {
     width: calc(100% - 2 * 55px);
 }

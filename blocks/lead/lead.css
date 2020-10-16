@@ -2,7 +2,7 @@
 @import url('../lead/__title/lead__title.css');
 @import url('../lead/__paragraph/lead__paragraph.css');
 @import url('../lead/__image/lead__image.css');
-@import url('../lead/_theme/lead_theme_dark.css');
+@import url('../lead/_alignment/lead_alignment_indent.css');
 .lead {
     width: calc(100% - 2 * 55px);
     display: flex;
