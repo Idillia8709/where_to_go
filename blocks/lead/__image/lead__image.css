@@ -23,6 +23,11 @@
   .lead__image {
     width: 150px;
     height: 150px;
-    margin: 0 40px 0 0;
+    margin: 0 20px 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .lead__image {
+   display: none;
   }
 }
