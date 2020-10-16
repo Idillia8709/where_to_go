@@ -5,20 +5,20 @@
 @import url('../people/__text/people__text.css');
 @import url('../people/_alignment/people_alignment_indent.css');
 .people {
-    width: calc(100% - 2 * 55px);
+  width: calc(100% - 2 * 55px);
 }
 @media screen and (max-width: 1279px) {
-    .people {
-        width: calc(100% - 2 * 45px);
-    }
+  .people {
+     width: calc(100% - 2 * 45px);
+  }
 }
 @media screen and (max-width: 1023px) {
-    .people {
-        width: calc(100% - 2 * 35px);
-    }
+  .people {
+    width: calc(100% - 2 * 35px);
+  }
 }
 @media screen and (max-width: 639px) {
-    .people {
-        width: calc(100% - 2 * 25px);
-    }
+  .people {
+    width: calc(100% - 2 * 25px);
+  }
 }

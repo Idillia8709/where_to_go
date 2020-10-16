@@ -1,19 +1,19 @@
 .people__items {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 80px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
 }
 @media screen and (max-width: 1023px) {
-    .people__items {
-        gap: 40px;
-    }
+  .people__items {
+    gap: 40px;
+  }
 }
 @media screen and (max-width: 639px) {
-    .people__items {
-        grid-template-columns: 1fr;
-        gap: 40px; 
-    }
+  .people__items {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
