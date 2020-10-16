@@ -1,5 +1,18 @@
 .lead__paragraph {
-    color: #FECDA7;
-    font-size: 19px;
+  color: #FECDA7;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0 0 55px 0;
+}
+@media screen and (max-width: 1023px) {
+  .lead__paragraph {
+    font-size: 14px;
     margin: 0 0 55px 0;
+  }
+}
+@media screen and (max-width: 639px) {
+  .lead__paragraph {
+    font-size: 12px;
+    margin: 0 0 55px 0;
+  }
 }

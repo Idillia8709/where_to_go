@@ -1,6 +1,16 @@
 .people__paragraph {
-    color: #FECDA7;
-    font-size: 19px;
-    text-transform: uppercase;
-    margin: 0 0 55px 0;
+  color: #FECDA7;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0 0 55px 0;
+}
+@media screen and (max-width: 1023px) {
+  .peole__paragraph {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .people__paragraph {
+    font-size: 12px;
+  }
 }

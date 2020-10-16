@@ -2,6 +2,7 @@
 @import url('../lead/__title/lead__title.css');
 @import url('../lead/__paragraph/lead__paragraph.css');
 @import url('../lead/__image/lead__image.css');
+<<<<<<< HEAD
 @import url('../lead/_theme/lead_theme_dark.css');
 
 .lead {
@@ -10,6 +11,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
+=======
+@import url('../lead/_alignment/lead_alignment_indent.css');
+.lead {
+  width: calc(100% - 2 * 55px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+>>>>>>> 6a3c816e8415ab3a5e1abc3f62a110d9a213d678
 }
 
 @media screen and (max-width: 1279px) {
@@ -28,4 +37,8 @@
   .lead {
     width: calc(100% - 2 * 25px);
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6a3c816e8415ab3a5e1abc3f62a110d9a213d678

@@ -1,10 +1,16 @@
 .menu__link {
   text-decoration: none;
   color: #000;
+  font-size: 18px;
 }
 
 .menu__link:hover {
   text-decoration: underline;
   opacity: 0.6;
   cursor: pointer;
+}
+@media screen and (max-width: 639px) {
+  .menu__link {
+    font-size: 10px;
+  }
 }
