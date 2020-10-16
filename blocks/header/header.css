@@ -1,7 +1,8 @@
-@import url('../header/_theme/header_theme_dark.css');
 .header {
-    width: calc(100% - 2 * 55px);   
+    width: calc(100% - 2 * 60px);  
+    margin: 45px auto 102px; 
 }
+
 @media screen and (max-width: 1279px) {
     .header {
         width: calc(100% - 2 * 45px);

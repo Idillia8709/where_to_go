@@ -1,4 +1,10 @@
 .menu__link {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  cursor: pointer;
 }
